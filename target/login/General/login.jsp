@@ -32,7 +32,7 @@ padding: 1em;
 
 
 <tr>
-<td><b> USERNAME : <input type="text" name="userName"/>  </b><br> </td>
+<td><b> username : <input type="text" name="userName"/>  </b><br> </td>
 
 </tr>
 

@@ -4,7 +4,7 @@
 <html>
 
 <head>
-<title> Login Application </title>
+<title> MIRACLE Login Application </title>
 
 <style>
     header, footer {

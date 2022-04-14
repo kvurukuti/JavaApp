@@ -11,7 +11,7 @@ pipeline {
                 sh 'cp /var/lib/jenkins/workspace/login pipeline/target/login.war /opt/jenkins/'
             }
         }
-        stage('Complete') 
+        stage('Complete') {
             steps {
                 echo "job is completed"
             }

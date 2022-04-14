@@ -8,7 +8,7 @@ pipeline {
         }
         stage('COPY') {
             steps {
-                sh 'cp /var/lib/jenkins/workspace/login pipeline/target/login.war /opt/jenkins/'
+                sh 'cp /var/lib/jenkins/workspace/'login pipeline'/target/login.war /opt/jenkins/'
             }
         }
         stage('Complete') {

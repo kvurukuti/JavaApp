@@ -8,6 +8,7 @@ pipeline {
         }
         stage('COPY') {
             steps {
+                sh 'chmod -R 777 /opt/jenkins/'
                 sh 'cp target/login.war /opt/jenkins/'
             }
         }

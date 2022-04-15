@@ -6,12 +6,6 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
-        stage('COPY') {
-            steps {
-                sh 'chmod -R 777 /opt/jenkins/'
-                sh 'cp target/login.war /opt/jenkins/'
-            }
-        }
         stage('Complete') {
             steps {
                 echo "job is completed"
